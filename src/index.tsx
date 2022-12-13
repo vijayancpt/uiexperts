@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { AppRoutes } from './AppRoutes';
 import { HashRouter } from 'react-router-dom';
-import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,8 +13,11 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <HashRouter>
-      <Header/>
-      <AppRoutes/></HashRouter>
+      <AppRoutes/>
+      <Footer/>
+      </HashRouter>
+      
+
     
   </React.StrictMode>
 );

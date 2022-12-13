@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router"
 import './tech-references.scss';
 
-export const TechReferences = () => {
+export const TechDashboard = () => {
     const navigate = useNavigate();
     return (
         <div className="tech-ref-container">

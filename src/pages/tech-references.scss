@@ -1,9 +1,9 @@
 .tech-ref-container{
-        background-color: #ddd;
+        background-color: rgb(56, 26, 26);
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 1800px;
+        height: 100%px;
         justify-content: flex-start;
         padding: 5rem;
 
@@ -11,6 +11,7 @@
             margin:1rem;
             padding:1rem;
             border-radius: 1rem;
+            color:black;
             border: 0.07rem solid #ddd;
         }
 

@@ -4,11 +4,12 @@ export const IonicCheatSheet = () => {
 
 
     return (
-        <>
+        <div>
             <h1> Imp Reference for Ionic</h1>
-            <p>
+            
                 <pre className="content">
-                    Container
+                   {` 
+                   Container
                     1. Content
                     2. Grid
                     3. Card
@@ -54,8 +55,9 @@ export const IonicCheatSheet = () => {
                     7. Search-bar
                     8. Progress Indicator
                     9. Reorder
+                   `}
                 </pre>
-            </p>
-        </>
+            
+        </div>
     )
 }

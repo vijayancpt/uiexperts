@@ -5,7 +5,7 @@ export const TechDashboard = () => {
     const navigate = useNavigate();
     return (
         <div className="tech-ref-container">
-            <h1>Tech References</h1>
+            <h1 style={{color:'#fff'}}>Tech References</h1>
             <div>
                 <button onClick={() => { navigate('/ionic-cheat-sheet') }}>Ionic Ref</button>
             </div>

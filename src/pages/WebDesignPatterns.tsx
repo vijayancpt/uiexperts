@@ -4,6 +4,7 @@ export const WebDesignPatterns = () => {
     return ( <div>
             <pre>
                 <h2>Important Design Patterns </h2>
+                {`
                 1. React Overview
                 2. Singleton
                 3. Proxy
@@ -24,6 +25,7 @@ export const WebDesignPatterns = () => {
                 18. Preload
                 19. Prefetch
                 20. List Virtualisation
+                `}
             </pre>
         </div>
     )

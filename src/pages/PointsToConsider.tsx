@@ -4,6 +4,8 @@ export const PointsToConsider = ()=>{
 
     return(
         <div>
+            <pre style={{paddingLeft:'2rem'}}>
+            {`
 
 Web Greatness
 
@@ -23,7 +25,8 @@ Customer Experience (CX)
 - Value for customer’s money
 - Customer retention
 - Brand value promotion
-
+`}
+</pre>
         </div>
     )
 }

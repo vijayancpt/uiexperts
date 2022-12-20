@@ -5,7 +5,7 @@ let logo = `${process.env.PUBLIC_URL}/assets/uiexperts-logo.png`;
 let homeImg = `${process.env.PUBLIC_URL}/assets/home3.jpg`;
 let sec1Img = `${process.env.PUBLIC_URL}/assets/group-design.jpg`;
 let visionImg = `${process.env.PUBLIC_URL}/assets/ai.webp`;
-let focusImg = `${process.env.PUBLIC_URL}/assets/focus.png`;
+let focusImg = `${process.env.PUBLIC_URL}/assets/our-focus.png`;
 
 let expertsImg = `${process.env.PUBLIC_URL}/assets/group-design.jpg`;
 let linkedInImg = `${process.env.PUBLIC_URL}/assets/linked-in.png`;
